@@ -31,6 +31,33 @@
         <img class="img-fluid" src="yandas/img/index1.jpeg" />
         <div class="title">Audio Accesspries</div>
     </div>
-    
+    <div class="img-item">
+        <img class="img-fluid" src="yandas/img/index2.jpeg" />
+        <div class="title">Keyboards</div>
+    </div>
+    <div class="img-item">
+        <img class="img-fluid" src="yandas/img/index3.jpeg" />
+        <div class="title">Folk</div>
+    </div>
+    <div class="img-item">
+        <img class="img-fluid" src="yandas/img/index4.jpeg" />
+        <div class="title">Guitar</div>
+    </div>
+    <div class="img-item">
+        <img class="img-fluid" src="yandas/img/index5.jpeg" />
+        <div class="title">Drums</div>
+    </div>
+    <div class="img-item">
+        <img class="img-fluid" src="yandas/img/index6.jpeg" />
+        <div class="title">Band</div>
+    </div>
+    <div class="img-item">
+        <img class="img-fluid" src="yandas/img/index7.jpeg" />
+        <div class="title">Lighting</div>
+    </div>
+    <div class="img-item">
+        <img class="img-fluid" src="yandas/img/index8.jpeg" />
+        <div class="title">Books</div>
+    </div>
 </div>
     </main>
