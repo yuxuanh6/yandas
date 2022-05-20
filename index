@@ -18,7 +18,19 @@
                 <img scr="yandas/icons/search.png" />
             </div>
             <div class="icon">
+                <img src="yandas/icons/bag.png" />
+            </div>
+            <div class="icon">
                 <img src="yandas/icons/account.png" />
             </div>
         </div>
     </header>
+    <main class="main">
+<div class="row">
+    <div class="img-item">
+        <img class="img-fluid" src="yandas/img/index1.jpeg" />
+        <div class="title">Audio Accesspries</div>
+    </div>
+    
+</div>
+    </main>
