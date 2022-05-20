@@ -13,3 +13,12 @@
             <div class="title">Yandas</div>
             <label class="subtitle">Discover your music</label>
         </div>
+        <div class="icons-container">
+            <div class="icon">
+                <img scr="yandas/icons/search.png" />
+            </div>
+            <div class="icon">
+                <img src="yandas/icons/account.png" />
+            </div>
+        </div>
+    </header>
