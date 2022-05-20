@@ -61,3 +61,33 @@
     </div>
 </div>
     </main>
+<footer>
+    <div class="title">Yandas Music</div>
+    <div class="subtitle">Your Hometown Music Store Champion!</div>
+    <div class="links-container">
+        <div class="row">
+            <div class="icon border p-1">
+                <img src="yandas/icons/paypal.png" />
+            </div>
+            <div class="icon border p-1">
+                <img src="yandas/icons/apple-pay.png" />
+            </div>
+            <div class="icon border p-1">
+                <img src="yandas/icons/google_pay.png" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="icon">
+                <img src="yandas/icons/index_footer_right_2.png" />
+            </div>
+            <div class="icon">
+                <img src="yandas/icons/camera.png" />
+            </div>
+            <div class="icon">
+                <img src="yandas/icons/index_footer_right_3.png" />
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
