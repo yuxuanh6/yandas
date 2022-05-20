@@ -49,3 +49,97 @@ html,body {
     margin: 50px auto;
     min-height: 600px;
 }
+
+.main .row {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.row .img-item {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+
+.row .img-item img {
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 30px;
+    /* object-fit: cover; */
+    /* border: 1px solid red; */
+}
+
+.row .img-item .title {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 700;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+footer .title {
+    font-family: 'DM Sans';
+    font-size: 2vw;
+    font-size: 1000;
+}
+
+footer .subtitle {
+    font-size: 14px !important;
+    color: #000000 !important;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.row .icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.row .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.border {
+    border: 1px solid #efefef;
+}
+
+.p-1 {
+    padding: .5rem;
+}
+
+@media screen and (max-width: 800px) {
+    /* .main .row {
+        display: block;
+        margin: 30px auto auto auto;
+        text-align: center;
+    }
+
+    .main .row .img-item {
+        margin: auto auto 30px auto;
+    } */
+}
