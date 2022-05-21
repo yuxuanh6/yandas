@@ -53,7 +53,7 @@ html,body {
 .main .row {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 5rem;
     flex-wrap: wrap;
 }
 
@@ -110,7 +110,7 @@ footer .subtitle {
 .row {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 5rem;
 }
 
 .row .icon {
