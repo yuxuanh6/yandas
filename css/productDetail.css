@@ -336,3 +336,52 @@ body {
 }
 
 /************************* main part end ********************/
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer .title {
+    font-family: 'DM Sans';
+    font-size: 2vw;
+    font-size: 1000;
+}
+
+footer .subtitle {
+    font-size: 14px !important;
+    color: #000000 !important;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.row .icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.row .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.border {
+    border: 1px solid #efefef;
+}
+
+.p-1 {
+    padding: .5rem;
+}
