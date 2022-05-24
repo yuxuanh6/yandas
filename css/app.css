@@ -30,3 +30,56 @@
 .w-50 {
     width: 50%;
 }
+
+.m-auto {
+    margin: auto;
+}
+
+@keyframes hover-color {
+    from {
+        border-color: var(--light-grey);
+    }
+
+    to {
+        border-color: var(--black);
+    }
+}
+
+.magic-radio,
+.magic-checkbox {
+    position: absolute;
+    display: none;
+}
+
+.magic-radio[disabled],
+.magic-checkbox[disabled] {
+    cursor: not-allowed;
+}
+
+.magic-radio+label,
+.magic-checkbox+label {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.magic-radio+label:hover:before,
+.magic-checkbox+label:hover:before {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: hover-color;
+}
+
+.magic-radio+label:before,
+.magic-checkbox+label:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: '';
+    border: 1px solid #c0c0c0;
+}
