@@ -1,0 +1,32 @@
+:root {
+    --light-grey: #949292;
+    --white: #ffffff;
+    --black: #000000;
+    --light-2-grey: #efefef;
+    --blue: rgb(43, 43, 225);
+    --light-blue: #E3F1F2;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.border-0 {
+    border: 0 !important;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-50 {
+    width: 50%;
+}
