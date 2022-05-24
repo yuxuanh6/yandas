@@ -138,3 +138,50 @@
     border-radius: 50%;
     background: var(--black);
 }
+
+.magic-radio:checked+label:before {
+    border: 1px solid #3e97eb;
+}
+
+.magic-radio:checked[disabled]+label:before {
+    border: 1px solid #c9e2f9;
+}
+
+.magic-radio:checked[disabled]+label:after {
+    background: #c9e2f9;
+}
+
+.magic-checkbox+label:before {
+    border-radius: 50%;
+}
+
+.magic-checkbox+label:after {
+    top: 2px;
+    left: 7px;
+    box-sizing: border-box;
+    width: 6px;
+    height: 12px;
+    transform: rotate(45deg);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-top: 0;
+    border-left: 0;
+    border-radius: 50%;
+}
+
+.magic-checkbox:checked+label:before {
+    border: #3e97eb;
+    background: var(--black);
+    border-radius: 50%;
+}
+
+.magic-checkbox:checked[disabled]+label:before {
+    border: #c9e2f9;
+    background: #c9e2f9;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto !important;
+}
