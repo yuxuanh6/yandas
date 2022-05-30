@@ -26,6 +26,7 @@ body {
     font-family: 'DM Sans';
     font-size: 3vw;
     font-size: 1000;
+    color: var(--black);
 }
 
 .subtitle {
@@ -163,6 +164,7 @@ textarea:focus {
     align-items: center;
     padding: 1rem;
     margin-bottom: 1rem;
+    border-bottom: 1px solid var(--light-2-grey);
 }
 
 .cart-item .img-container {
@@ -184,6 +186,7 @@ textarea:focus {
     display: flex;
     gap: 2rem;
     align-items: center;
+    justify-content: space-between;
 }
 
 .info-container .bottom .color-container {
@@ -389,4 +392,30 @@ footer .subtitle {
 
 .p-1 {
     padding: .5rem;
+}
+
+@media screen and (min-width: 800px) {
+
+    .nav-bar .mobible-logo {
+        display: none;
+    }
+
+    .nav-bar .logo-container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .nav-bar .mobible-logo {
+        display: block;
+    }
+
+    .nav-bar .logo-container {
+        display: none;
+    }
+
+    .nav-bar .icons-container .icon:nth-child(3) {
+        display: none;
+    }
 }

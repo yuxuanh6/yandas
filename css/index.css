@@ -22,6 +22,7 @@ html,body {
     font-family: 'DM Sans';
     font-size: 3vw;
     font-size: 1000;
+    color: var(--black);
 }
 
 .subtitle {
@@ -53,7 +54,7 @@ html,body {
 .main .row {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 
@@ -110,7 +111,7 @@ footer .subtitle {
 .row {
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 1.5rem;
 }
 
 .row .icon {

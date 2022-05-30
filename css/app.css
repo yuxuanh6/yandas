@@ -7,6 +7,22 @@
     --light-blue: #E3F1F2;
 }
 
+a {
+    text-decoration: none;
+}
+
+.text-white {
+    color: var(--white) !important;
+}
+
+.text-light-grey {
+    color: var(--light-grey) !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
 .show {
     display: block !important;
 }
@@ -83,6 +99,7 @@
     content: '';
     border: 1px solid #c0c0c0;
 }
+
 .magic-radio+label:after,
 .magic-checkbox+label:after {
     position: absolute;
