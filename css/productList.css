@@ -22,6 +22,7 @@ html,body {
     font-family: 'DM Sans';
     font-size: 3vw;
     font-size: 1000;
+    color: var(--black);
 }
 
 .subtitle {
@@ -75,6 +76,10 @@ html,body {
 
 .main .slide-menu .item:last-child {
     margin-bottom: 0;
+}
+
+.item a {
+    color: var(--white);
 }
 
 .slide-menu .item .sub-menu {
@@ -254,4 +259,67 @@ footer .subtitle {
 
 .p-1 {
     padding: .5rem;
+}
+
+@media screen and (min-width: 800px) {
+
+    .nav-bar .mobible-logo {
+        display: none;
+    }
+
+    .nav-bar .logo-container {
+        display: block;
+    }
+
+    .main .row {
+        display: block;
+        margin: 30px auto auto auto;
+        text-align: center;
+    }
+
+    .main .row .img-item {
+        margin: auto auto 30px auto;
+    }
+
+    .nav-bar .icons-container .icon:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .nav-bar .mobible-logo {
+        display: block;
+    }
+
+    .nav-bar .logo-container {
+        display: none;
+    }
+
+    .nav-bar .icons-container .icon:nth-child(3) {
+        display: none;
+    }
+
+    .nav-bar .icons-container .icon:last-child {
+        display: block;
+    }
+
+    .main .checkout-container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .main .row {
+        display: block;
+        margin: 30px auto auto auto;
+        text-align: center;
+    }
+
+    .main .row .img-item {
+        margin: auto auto 30px auto;
+    }
+
+    .main .slide-menu {
+        display: none;
+    }
 }

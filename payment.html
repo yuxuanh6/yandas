@@ -11,7 +11,7 @@
 <body>
     <header class="nav-bar">
         <div class="logo-container">
-            <div class="title">Yandas</div>
+            <a class="title d-block" href="/home.html">Yandas</a>
             <label class="subtitle">Discover you music</label>
         </div>
         <div class="mobible-logo">
@@ -22,7 +22,9 @@
                 <img src="icons/search.png" />
             </div>
             <div class="icon">
-                <img src="icons/bag.png" />
+                <a href="/cart.html">
+                    <img src="icons/bag.png" />
+                </a>
             </div>
             <div class="icon">
                 <img src="icons/account.png" />
@@ -35,19 +37,19 @@
     <main class="main">
         <div class="breadcrumb">
             <div class="crumb">
-                <a href="index.html">Home</a>
+                <a href="/home.html">Home</a>
             </div>
             <div class="crumb icon">
                 <img src="icons/arrow-right.png" />
             </div>
             <div class="crumb">
-                <a href="productlist.html">Fork</a>
+                <a href="/productlist.html">Fork</a>
             </div>
             <div class="crumb icon">
                 <img src="icons/arrow-right.png" />
             </div>
             <div class="crumb">
-                <a href="product_detail.html">Stentor Student 1 Violin Outfit</a>
+                <a href="/product.html">Stentor Student 1 Violin Outfit</a>
             </div>
             <div class="crumb icon">
                 <img src="icons/arrow-right.png" />
@@ -80,7 +82,7 @@
             <div class="address-pane hide" id="add-address-pane">
                 <div class="header">
                     <div class="title">Add Address</div>
-                    <div class="cancle-btn" id="cancle-address-btn">Cancle</div>
+                    <div class="cancle-btn" id="cancle-address-btn">Cancel</div>
                 </div>
                 <form class="form">
                     <div class="form-group">
@@ -124,10 +126,6 @@
             <div class="title">1 Item</div>
         </div>
         <div class="cart-item">
-            <div class="checkbox-container">
-                <input class="magic-checkbox" type="checkbox" id="c1"/>
-                <label for="c1"></label>
-            </div>
             <div class="img-container">
                 <img class="img-fluid" src="img/detail1.png" />
             </div>
@@ -140,7 +138,7 @@
                     </div>
                     <div class="quantity-container">
                         <div class="reduce-btn" id="reduce-btn">-</div>
-                        <div class="quantity" id="quantity">0</div>
+                        <div class="quantity" id="quantity">1</div>
                         <div class="increase-btn" id="increase-btn">+</div>
                     </div>
                     <div class="price">$159.75</div>
@@ -170,10 +168,10 @@
         </div>
         <div class="checkout-container">
             <div class="total-price-info">
-                Total <span class="total-price">$159.75</span>
+                Total <span class="total-price">$148.66</span>
             </div>
             <div class="checkout-btn">
-                Checkout
+                <a href="/payment_success.html" class="text-white">Checkout</a>
             </div>
         </div>
     </main>
